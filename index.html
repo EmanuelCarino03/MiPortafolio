@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container"> <a class="navbar-brand fw-bold" href="#">Emanuel Cariño</a> <button
+                class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#inicio">Inicio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#sobre-mi">Sobre mí</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#proyectos">Proyectos</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contacto">Contacto</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="inicio" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold"> Hola, soy Emanuel </h1>
+                    <h2 class="mi-titulo-personalizado"> Desarrollador Java Full Stack </h2>
+                    <p class="lead mt-3"> Apasionado por el desarrollo de software, la programación en Java y la
+                        creación de aplicaciones web modernas. </p>
+                </div>
+                <div class="col-lg-6 text-center"> <img src="./img/foto.png" alt="Foto de perfil"
+                        class="img-fluid rounded-circle shadow"> </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Sobre mí</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center"> <img src="./img/foto2.png" class="img-fluid rounded shadow" alt="Perfil">
+                </div>
+                <div class="col-md-8">
+                    <p> Soy desarrollador Java Junior con formación en Generation México. Tengo experiencia en proyectos
+                        Full Stack utilizando Java, HTML, CSS y JavaScript. </p>
+                    <h4>Estudios</h4>
+                    <ul>
+                        <li>Generation México - Java Full Stack Developer</li>
+                    </ul>
+                    <h4>Conocimientos</h4>
+                    <ul>
+                        <li>Fundamentos de Java</li>
+                        <li>Metodologías Ágiles Scrum</li>
+                        <li>Git y GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Proyectos -->
+    <section id="proyectos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5"> Mis Proyectos </h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow"> <img src="./img/proyecto.png" class="card-img-top" alt="Proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title"> E-commerce </h5>
+                            <p class="card-text"> Desarrollé junto a mi equipo un e-commerce de comida mexicana,
+                                aplicando metodologías ágiles y buenas prácticas para crear una plataforma rápida,
+                                intuitiva y fácil de usar, enfocada en brindar una excelente experiencia al usuario.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow"> <img src="./img/hack.png" class="card-img-top" alt="Proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title"> Landing Page </h5>
+                            <p class="card-text"> Landing page desarrollada en equipo durante un hackathon, con un
+                                diseño moderno y responsivo. El proyecto se enfocó en ofrecer una experiencia visual
+                                atractiva, navegación intuitiva y adaptación a diferentes dispositivos. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow"> <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtE5ZpXCHmdJj-qGiGiDSnpyC1UvON09q3obY7ySyM9g&s=10"
+                            class="card-img-top" alt="Proyecto">
+                        <div class="card-body">
+                            <h5 class="card-title"> Hackathon 2 </h5>
+                            <p class="card-text"> Descripción. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5"> Contacto </h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form>
+                        <div class="mb-3"> <label class="form-label"> Nombre </label> <input type="text"
+                                class="form-control"> </div>
+                        <div class="mb-3"> <label class="form-label"> Correo </label> <input type="email"
+                                class="form-control"> </div>
+                        <div class="mb-3"> <label class="form-label"> Mensaje </label> <textarea class="form-control"
+                                rows="5"></textarea> </div> <button class="btn btn-primary"> Enviar </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0"> © 2026 Santiago Emanuel Cariño Macedo </p>
+    </footer> <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
